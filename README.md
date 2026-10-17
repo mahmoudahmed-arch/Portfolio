@@ -82,7 +82,7 @@ Everything lives in **`src/data/portfolioData.js`**:
 
 | What | Where | How |
 |---|---|---|
-| Real CV | `public/Mahmoud-Hassan-CV.pdf` | Replace the placeholder PDF, keep the same name. Or change `personal.cvFile`. |
+| Real CV | `public/Mahmoud-Ahmed-Hassan-CV.pdf` | Replace the placeholder PDF, keep the same name. Or change `personal.cvFile`. |
 | LinkedIn | `personal.linkedin` | Paste full URL, e.g. `https://www.linkedin.com/in/your-handle`. While empty, buttons show **Coming Soon** and stay disabled. |
 | Project demo | `projects[i].liveUrl` | Paste URL to enable the **Live Demo** button, else it renders **Coming Soon** disabled. |
 | Project source | `projects[i].sourceUrl` | Paste repo URL to enable **Source**, else disabled. |
