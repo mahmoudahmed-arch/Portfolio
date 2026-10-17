@@ -139,7 +139,7 @@ export default function Hero() {
             </button>
             <a
               href={personal.cvFile}
-              download="Mahmoud-Hassan-CV.pdf"
+              download={personal.cvFileName}
               className="btn-ghost"
               aria-label="Download Mahmoud Ahmed Hassan CV (PDF)"
             >

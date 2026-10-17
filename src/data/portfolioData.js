@@ -40,7 +40,8 @@ export const personal = {
   // LinkedIn profile URL (canonical form, tracking params removed)
   linkedin: 'https://www.linkedin.com/in/mahmoud-ahmed-4a093b413',
   linkedinLabel: 'LinkedIn profile (coming soon)',
-  cvFile: '/Mahmoud-Ahmed-Hassan-CV.pdf',
+  cvFile: import.meta.env.BASE_URL + 'Mahmoud-Ahmed-Hassan-CV.pdf',
+  cvFileName: 'Mahmoud-Ahmed-Hassan-CV.pdf',
   availability: 'Open to opportunities',
 };
 
